@@ -97,9 +97,8 @@ System.out.println(alloc.memAlloc(4));
  System.out.println(alloc.memRealloc("0008", 200));
  ```
 
-![Output](./asserts/1.test.png)
+ ![Output](./asserts/1.test.png)
+ ![Output](./asserts/2.test.png)
+ ![Output](./asserts/3.test.png)
  Img. 1.1 resize block of memory
 
-![Output](./asserts/2.test.png)
-
-![Output](./asserts/3.test.png)

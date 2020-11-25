@@ -10,7 +10,7 @@ public class Main {
         allocator.memAlloc(8);
         allocator.memAlloc(64);
         allocator.memAlloc(217);
-        allocator.memDamp();
+//        allocator.memDamp();
         System.out.println(allocator.memFree("0018"));
         System.out.println(allocator.memAlloc(10));
 //        allocator.memDamp();

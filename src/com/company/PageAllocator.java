@@ -19,7 +19,6 @@ public class PageAllocator {
     private final int PART_SIZE = 4;
     private final int PAGE_NUMBER = Math.round(REQ_MEMORY / (DEFAULT_PAGE_SIZE));
     private int[] desc_address = new int[PAGE_NUMBER];
-    private LinkedList<Integer> freePages = new LinkedList<>();
     private byte[] MEMORY;
 
     public PageAllocator() {
